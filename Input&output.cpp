@@ -2,6 +2,7 @@
 using namespace std;
 void printfunction()
 {
+    
     int i=1;
     while (i <=20)
     {
