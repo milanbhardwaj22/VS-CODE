@@ -16,5 +16,10 @@ int main()
     {
         cout << arr[i];
 }
+cout<<endl;
+cout<<arr.capacity()<<endl;
+
+arr.push_back(10);
+cout<<arr.size();
 }
 
