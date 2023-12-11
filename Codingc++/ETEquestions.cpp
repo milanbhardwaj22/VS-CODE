@@ -141,7 +141,6 @@
 //           return 0;
 //     }
 //     else 
-//     cout << "they are anagrams " << endl;
 // }
 //     {
 //          for(i=0;i<n1;i++)
@@ -188,11 +187,12 @@
 //             cout << "not a anagram "<< endl;
 //         }
 //     }
-//     system("pause )
+//     system("pause" );
+// }
 
 
 
-//     #include <iostream>
+// #include <iostream>
 // using namespace std;
 // int main()
 // {
@@ -259,4 +259,165 @@
 //         cout<< "invalid";
 //     }
 //     return 0;
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int num ;
+//     cout << "enter the number " <<  endl;
+//     cin >> num ;
+//     if (num > 0)
+//     {
+//         cout <<"number is positive " << endl;
+//     }
+//     else if (num <0)
+//     {
+//         cout << "number in negative" << endl;
+//     }
+//     else
+//     {
+//         cout << "number is a ZERO " << endl;
+//     }
+//     return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int i,j,x;
+//     cin >> x;
+//     for (int i=1; i<=x; i++)
+//     {
+//         for(int j =1; j<=i; j++)
+//         {
+//             cout << " * "; 
+//         }
+//         cout << " \n";
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int day ,month,year;
+//     cin >> day >> month >> year;
+
+//     if(month >=1 && month <=12){
+//         switch(month)
+//         {
+//             case 1:
+//             case 3:
+//             case 5:
+//             case 7:
+//             case 8:
+//             case 10:
+//             case 12:
+//                 if (day <=31)
+//                 {
+//                     cout << "Valid" << endl;
+//                 }
+//                 break;
+
+//             case 4:
+//             case 6:
+//             case 9:
+//             case 11:
+//                 if (day <=30)
+//                 {
+//                     cout << "valid" << endl;
+//                 }
+//                 break;
+
+//             case 2:
+//                 if (day == 29 && year%4==0 ||(year%400 && year%100!=0))
+//                 {
+//                     cout <<"valid"<< endl;
+//                 }
+//                 else if (day <=28)
+//                 {
+//                     cout << "valid" << endl;
+//                 }
+//                 break;
+//             default:
+//                 cout << "Invalid" << endl;
+//         }
+
+//     }
+//     else {
+//         cout << "Invalid" << endl;
+//     }
+// }
+
+
+// # include <iostream>
+// using namespace std;
+
+// int main(){
+//     int feet,inches, feet1, inches1;
+//     cin >> feet >> inches;
+//     cin >> feet1 >> inches1;
+//     int tfeet = feet+feet1;
+//     int tinches = inches + inches1;
+
+//     if (tinches >= 12){
+//         tfeet = tfeet+1;
+//         tinches = tinches-12;
+//     }
+
+//     cout << tfeet << "'" << tinches<< '"' <<endl;
+// }
+
+// #include <iostream>
+// #include<string>
+// using namespace std;
+
+// int main()
+// {
+//     string s;
+//     getline(cin,s);
+//     int n=s.size();
+//     int c=0;
+//     if(s=="")
+//     {
+//         cout<<0;
+//         return 0;
+//     }
+//     for(int i=0;i<n;i++)
+//     {
+//         if(s[i]==' ')
+//         {
+//             c++;
+//         }
+//     }
+//     c++;
+//     cout<<"Number of words : "<<c;
+// }
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// int main()
+// {
+//     string str;
+//     getline(cin, str);
+//     int c = 0;
+//     int i;
+//     int segments = 0;
+//     for (i = 0; i < str.length(); i++)
+//     {
+//         if (str[i] != ' ')
+//         {
+//             if (i == 0 || str[i - 1] == ' ')
+//             {
+//                 segments++;
+//             }
+//         }
+//     }
+//     cout << segments << endl;
 // }
