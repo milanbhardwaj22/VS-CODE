@@ -8,6 +8,7 @@
 // public :
 // int value ;
 // chknumber( int n)
+
 // {
 // value = n;
 
