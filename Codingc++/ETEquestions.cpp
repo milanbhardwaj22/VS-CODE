@@ -1,3 +1,4 @@
+
 // //question 1 of constructor
 // #include<iostream>
 // using namespace std;
@@ -230,31 +231,32 @@
 // }
 
 
-#include<iostream>
-using namespace std;
-int main()
-{
-    string name ;
-    cin >> name ;
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     string name ;
+//     cin >> name ;
 
-    if(name == "lion")
-    {
-        cout<< "a";
-    }
-    else if(name == "horse")
-    {
-        cout<< "b";
-    }
-    else if(name == "bear")
-    {
-        cout<< "c";
-    }
-    else if(name == "boat")
-    {
-        cout<< "d";
-    }else 
-    {
-        cout<< "invalid";
-    }
-    return 0;
-}
+//     if(name == "lion")
+//     {
+//         cout<< "a";
+//     }
+//     else if(name == "horse")
+//     {
+//         cout<< "b";
+//     }
+//     else if(name == "bear")
+//     {
+//         cout<< "c";
+//     }
+//     else if(name == "boat")
+//     {
+//         cout<< "d";
+
+//     }else 
+//     {
+//         cout<< "invalid";
+//     }
+//     return 0;
+// }
