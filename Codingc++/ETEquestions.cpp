@@ -5,6 +5,7 @@
 // class chknumber
 // {
 
+
 // public :
 // int value ;
 // chknumber( int n)
