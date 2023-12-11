@@ -210,23 +210,51 @@
 // return 0;
 // }
 
+// #include<iostream>
+// using namespace std;
+// int main()
+
+// {
+//     int i,j,n;
+//     cout << "enter the rows"<< endl;
+//     cin >> n;
+//     for(i =1; i<=n; i++)
+// {
+//     for (j=1; j<=i; j++)
+//     {
+//         cout << "* ";
+//     }
+//     cout << " \n";
+// }
+// return 0;
+// }
+
+
 #include<iostream>
 using namespace std;
 int main()
+{
+    string name ;
+    cin >> name ;
 
-{
-    int i,j,n;
-    cout << "enter the rows"<< endl;
-    cin >> n;
-    for(i =1; i<=n; i++)
-{
-    for (j=1; j<=i; j++)
+    if(name == "lion")
     {
-        cout << "* ";
+        cout<< "a";
     }
-    cout << " \n";
-}
-
-
-return 0;
+    else if(name == "horse")
+    {
+        cout<< "b";
+    }
+    else if(name == "bear")
+    {
+        cout<< "c";
+    }
+    else if(name == "boat")
+    {
+        cout<< "d";
+    }else 
+    {
+        cout<< "invalid";
+    }
+    return 0;
 }
