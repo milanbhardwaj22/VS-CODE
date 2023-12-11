@@ -3,6 +3,7 @@
     class parent1 {
     public :
     parent1 ()
+
     {
         cout<< "parent class" << endl;
     }
