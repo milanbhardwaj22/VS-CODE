@@ -3,6 +3,7 @@
 // using namespace std;
 // class chknumber
 // {
+
 // public :
 // int value ;
 // chknumber( int n)
