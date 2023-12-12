@@ -66,27 +66,49 @@
 // }
 
 
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int num ;
-//     cout << "enter the number" << endl;
-//     cin >> num;
-//     int tmp = num;
-//     int ans = 0;
-//    while(tmp != 0)
-//    {
-//     int rem = tmp %10;
-//     ans += (rem*rem*rem);
-//     tmp = tmp /10;
-//    }
-//    if(ans ==num)
-//    cout << "number is a armstrong" << endl;
-//    else 
-//    cout << "number is not a armstrong number" << endl;
-// }
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num ;
+    cout << "enter the number" << endl;
+    cin >> num;
+    int tmp = num;
+    int ans = 0;
+   while(tmp != 0)
+   {
+    int rem = tmp %10;
+    ans += (rem*rem*rem);
+    tmp = tmp /10;
+   }
+   if(ans ==num)
+   cout << "number is a armstrong" << endl;
+   else 
+   cout << "number is not a armstrong number" << endl;
+}
 
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int num;
+cout << "enter the number" << endl;
+cin >> num;
+int temp = num;
+int ans=0;
+while(temp != 0)
+{
+    int rem = temp %10;
+    ans += (rem*rem*rem);
+    temp = temp/10;
+}
+if(num ==ans)
+{
+    cout << "its a armstrong number";
+}
+}
 // #include<iostream>
 // using namespace std;
 // int main()
