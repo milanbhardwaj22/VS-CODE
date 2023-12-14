@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream>
 using namespace std;
 int main()
@@ -5,6 +6,16 @@ int main()
     int r , c;
     cin >> r >> c;
     int arr[r][c];
+=======
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int r , c;
+
+//     cin >> r >> c;
+//     int arr[r][c];
+>>>>>>> 98cec308a39909199b21be522662f4ac23588bc0
 
     for(int i= 0;  i<r; i++)
     {

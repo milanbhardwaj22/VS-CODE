@@ -110,6 +110,7 @@ if(num ==ans)
     cout << "its a armstrong number";
 }
 }
+
 // #include<iostream>
 // using namespace std;
 // int main()
