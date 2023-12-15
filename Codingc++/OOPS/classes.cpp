@@ -5,6 +5,7 @@ class fruit{
     public:
     string name;
     string color;
+    string shape;
 };
 class student{
     string name ;
