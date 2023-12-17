@@ -4,6 +4,7 @@ using namespace std;
 class fruit{
     public:
     string name;
+
     string color;
     string shape;
 };
