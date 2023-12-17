@@ -9,6 +9,7 @@ rectangle () // default constructor
 {
     l = 0 ;
     b = 0;
+    
 }
 rectangle(int x, int y){ // parameterised constuctors
     l = x;
