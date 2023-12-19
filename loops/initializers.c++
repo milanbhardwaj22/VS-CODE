@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+
     
     int arr[]= {2,3,4,5,4,4,54,3,4,54};
     int n = sizeof(arr)/sizeof(arr[0]);
