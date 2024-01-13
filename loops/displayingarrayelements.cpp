@@ -47,7 +47,6 @@ void subArray(int arr[], int n)
 		}
 	}
 }
-
 // Driver program
 int main()
 {
