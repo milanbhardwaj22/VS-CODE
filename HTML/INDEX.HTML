@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+table{
+    border: 2px solid black;
+    width: 50%;
+    height: 630px;
+    /* margin-top: 10px; */
+    margin: auto;
+    background-color: lightblue;
+    box-shadow: 5px 5px white;
+    border: 2px solid blue;
+    
+}
+body{
+    background-color: orange;
+
+}
+.outerdiv{
+    border: 2px double rgb(110, 110, 228);
+    box-shadow: 5px 5px blue;
+    height: 700px;
+    margin-top: -20px;
+}
+.req{
+    background-color: rgb(43, 0, 255);
+}
+.nonreq{
+    background-color: white;
+}
+a{
+    background-color: orangered;
+    color: black;
+    margin: 8px;
+    box-shadow: 5px 5px rgb(234, 230, 230);
+    text-decoration: none;
+}
+.p{
+    color: blue;
+}
+.h1{
+    background-color: gray;
+    color: white;
+    display: inline;
+    /* margin-top: -80px; */
+    margin-top: 100px;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+</head>
+
+<body>
+    <h1 class="h1">Signup form</h1>
+    <div class="outerdiv">
+
+        <div class="div">
+    
+    <table border="1" style="width: 50%;" align="center">
+        <tr align="center">
+            <td colspan="4" class="p">Please fill the below sign up form</td>
+        </tr>
+        <tr>
+            <th >Username</th>
+            <th ><input class="req" type="text" placeholder="required"> </th>
+        </tr>
+        <tr>
+            <th >Firstname</th>
+            <th ><input class="req" type="text" placeholder="required"></th>
+        </tr>
+        <tr>
+            <th >Lastname</th>
+            <th ><input class="nonreq" type="text"></th>
+        </tr>
+        <tr>
+            <th >Email</th>
+            <th ><input class="req" type="text" placeholder="required"></th>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <th>
+                <input type="radio" name="Male">Male
+                <input type="radio" name="Male">Female
+            </th>
+        </tr>
+        
+        
+        
+        <tr align="center">
+            <td colspan="4"><a href="submit.html" target="_blank">Submit</a>
+                <a href="" >Reset</a>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>
+
+</body>
+</html>
