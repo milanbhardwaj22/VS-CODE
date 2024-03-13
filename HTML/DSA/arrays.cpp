@@ -14,6 +14,7 @@ int GET_MIN(int num[], int n)
     }
     return min; 
     //view content
+    
 }
 
 int GET_MAX(int num[] ,int n)
