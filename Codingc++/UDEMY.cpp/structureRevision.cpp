@@ -6,6 +6,7 @@
 // struct Rectangle
 // {
 //     int length;
+
 //     int breadth;
 //     double x;
 // };
