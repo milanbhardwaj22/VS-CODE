@@ -1,11 +1,20 @@
 #include<stdio.h>
 #include<iostream>
 using namespace std;
-int main()
+struct rectangle 
 {
-    int a =19;
-    int &r=a ;
-    int b= 30;
-    r =b;
-    cout << a << endl <<  r << endl;
+    int length;
+    int breadth ;
+};
+
+int main()
+{ 
+    rectangle r = {10,5};
+    cout << r.length<< endl;
+    cout << r.breadth << endl;
+
+    rectangle *p=&r;
+    cout << p-> length<< endl;
+    cout << p-> breadth<< endl;
+
 }
