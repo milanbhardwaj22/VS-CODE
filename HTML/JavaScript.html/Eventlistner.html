@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id = "greet">
+        good morning user!
+    </h2>
+
+    <button id = "btn1">click here</button>
+    <script>
+    document.getElementById("btn1").addEventlistener("click",function(){
+        document.getElementById("greet").innertext = "welcome buddy!"
+    })
+    </script>
+</body>
+</html>
