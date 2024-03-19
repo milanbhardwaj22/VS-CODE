@@ -5,6 +5,7 @@
 {
     // int a = 10;
     // int *p ;
+ 
     // p = &a;
     // printf("%d" , a);
     // cout << endl;   
