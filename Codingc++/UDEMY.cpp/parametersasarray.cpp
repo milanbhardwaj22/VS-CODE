@@ -2,6 +2,7 @@
 using namespace std;
 int * fun(int size)  // *represent its a pointer , fun is a function
 {
+    
     int *p ; //*p is a pointer
     p = new int[size]; //array is assigned to a pointer
 
