@@ -9,7 +9,8 @@ struct rectangle
 
 int main()
 { 
-    rectangle r = {10,5};
+    rectangle r = {10
+    ,5};
     cout << r.length<< endl;
     cout << r.breadth << endl;
 
