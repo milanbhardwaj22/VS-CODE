@@ -24,3 +24,4 @@ int  main()
     cout << x << endl;
     return 0;
 }
+// go use your efficiently
