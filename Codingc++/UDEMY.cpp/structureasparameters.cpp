@@ -34,18 +34,14 @@ r -> breadth = b;
 }
 int area(struct rectangle r)
 {
-return r.length*r.breadth ;
-}
-
-void changelength(struct rectangle *r , int l)
-{
-    r ->length = l ;
+    r.length = 45;
+    cout << "length" << r.length << endl<< "breadth" <<r.breadth <<endl;
 }
 
 int main()
 {
-    struct rectangle r;
-    initialize(&r,10,5);
-    area(r);
-    changelength(&r,20);
+    struct rectangle r = {10,5};
+    fun(r);
+    printf("length %d \n breadth %d \n"  , r.length , r.breadth );
+    return 0;
 }
