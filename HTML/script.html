@@ -44,6 +44,18 @@
 //length = names.map(name => name.length);
 //console.log(length);
 
+const arrayAverage = (arr) =>
+{
+  let total = 0;
+  for(let number of arr)
+  {
+    total += number;
+  }
+  return total/arr.length;
+}
+
+let numbers = [1,2,3,4,5,6,7];
+console.log(`average is : ${arrayAverage(numbers)}`);
 
  </script>
 </body>
