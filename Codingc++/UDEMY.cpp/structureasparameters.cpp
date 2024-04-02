@@ -10,6 +10,7 @@ struct rectangle
 
 void fun(struct rectangle r)
 {
+    
     r.length = 45;
     cout << "length" << r.length << endl<< "breadth" <<r.breadth <<endl;
 }
