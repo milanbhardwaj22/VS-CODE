@@ -5,6 +5,7 @@
     if(n > 0)
     {
         x ++;
+     
         return fun(n-1)+x;
     }
     return 0;
