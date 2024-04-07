@@ -21,6 +21,7 @@ int  main()
 {
     int A[]= {2,4,5,6,7};
     int n = 6;
+    //array parameters
     for(int x:A)
     cout << x << endl;
     return 0;
