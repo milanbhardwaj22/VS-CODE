@@ -12,6 +12,7 @@ printf("%d" , A[i]);
 // int main()
 // {
 //     int A[5] = {2,3,4,5,6};
+
 //     fun(A,5);
 void fun(int A[])
 {
