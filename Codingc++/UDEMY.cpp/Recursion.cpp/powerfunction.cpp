@@ -11,5 +11,6 @@ int power(int n , int m)
 int main()
 {
     int r = power(2,4);
+    
     printf("%d" , r);
 }
