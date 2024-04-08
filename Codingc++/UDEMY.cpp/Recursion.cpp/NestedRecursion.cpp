@@ -9,6 +9,7 @@ int fun(int n)
 int main()
 {
     int r;
+
     r =fun(95);
     printf("%d" , r);
     return 0;
