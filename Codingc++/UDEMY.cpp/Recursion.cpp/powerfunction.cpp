@@ -6,6 +6,7 @@ int power(int m , int n)
     if( n%2 == 0)
     return power(m*m  ,n /2);  // if the condition if even .
     return m*power(m*m , (n-1)/2); // if the condition is odd.
+    
 }
 
 int main()
