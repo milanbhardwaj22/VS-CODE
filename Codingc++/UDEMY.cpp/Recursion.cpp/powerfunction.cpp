@@ -10,8 +10,7 @@ int power(int m , int n)
 
 int main()
 {
-    int r; // variable is declared.
-    r = power(2,4); // used for assising the values.
+    int r = power(2,4);
     printf("%d" , r);
 
 }
