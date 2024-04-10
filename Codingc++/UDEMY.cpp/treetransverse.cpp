@@ -12,6 +12,7 @@ struct node {
 };
  
 // Helper function that allocates a new node with the
+
 // given data and NULL left and right pointers.
 struct node* newNode(int data)
 {
