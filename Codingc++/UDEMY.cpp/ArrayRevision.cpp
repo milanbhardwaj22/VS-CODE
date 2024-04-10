@@ -6,6 +6,7 @@ int main()
     cout << "enter the size";
     cin >> n;
     int A[n];
+
     
     A[0]= 2;
 
