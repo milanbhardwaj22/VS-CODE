@@ -53,7 +53,7 @@ int main()
     // Function call
     printf("Inorder traversal of binary tree is \n");
     printInorder(root);
-    getchar();
+    getchar(); 
     return 0;
   
 }
