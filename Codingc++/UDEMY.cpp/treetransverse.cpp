@@ -8,7 +8,7 @@
 struct node {
     int data;
     struct node* left;
-    struct node* right;
+    struct node* right; 
 };
  
 // Helper function that allocates a new node with the 
